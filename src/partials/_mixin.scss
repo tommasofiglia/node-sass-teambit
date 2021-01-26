@@ -1,0 +1,28 @@
+@mixin container_flex{
+  max-width: 998px;
+  margin: auto;
+  display: flex;
+}
+
+@mixin container_flex_align_center{
+  max-width: 998px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+@mixin fixed_top{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+@mixin brown_links{
+  color: $brown_principal;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 14px;
+  &:hover{
+    color: $blue_link;
+  }
+}

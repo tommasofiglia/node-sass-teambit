@@ -1,0 +1,26 @@
+$nav_height: 70px;
+$text_right: right;
+$margin_navlinks: 0 15px;
+
+.navbar{
+  @include container_flex_align_center;
+  height: $nav_height;
+  border-bottom: 1px solid $brown_principal;
+  .logo{
+    width: $width_half;
+  }
+  .links{
+    width: $width_half;
+    color: $brown_principal;
+    text-align: $text_right;
+    a{
+      @include brown_links;
+      margin: $margin_navlinks;
+    }
+  }
+  .btn{
+    border: 1px solid $blue_link;
+    color: $blue_link;
+    margin-left: 10px;
+  }
+}
