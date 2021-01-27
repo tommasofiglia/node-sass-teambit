@@ -65,3 +65,25 @@ a:hover {
   color: #30488F;
   margin-left: 10px;
 }
+
+.jumbo {
+  max-width: 998px;
+  margin: auto;
+  display: flex;
+  padding: 70px 0;
+}
+.jumbo .left {
+  width: 50%;
+}
+.jumbo .left h1 {
+  color: #58402c;
+  font-size: 47px;
+  font-size: 600;
+  line-height: 1.6em;
+}
+.jumbo .right {
+  width: 50%;
+}
+.jumbo .right img {
+  width: 100%;
+}

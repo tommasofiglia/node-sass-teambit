@@ -1,0 +1,19 @@
+.jumbo{
+  @include container_flex;
+  padding: $paddings_jumbo;
+  .left{
+    width: $width_half;
+    h1{
+      color: $brown_principal;
+      font-size: $title_size;
+      font-size: $title_font_weight;
+      line-height: $line_height_main;
+    }  
+  }
+  .right{
+    width: $width_half;
+    img{
+      width: 100%;
+    }
+  }
+}

@@ -12,22 +12,40 @@
   <body>
 
     <div id="app">
-      <!-- Navbar -->
-      <nav>
-        <div class="navbar">
-          <div class="logo">
-            <img src="dist/img/logo.svg" alt="">
-          </div>
-          <div class="links">
-            <a href="" v-for="navLink in navLinks">
-              {{navLink.name}}
-            </a>
-            <div class="btn">
-              <img src="dist/img/google-logo.svg" alt="" class="google-logo">Sign up
+      <!-- Inizio header -->
+      <header>
+
+        <!-- Navbar -->
+        <nav>
+          <div class="navbar">
+            <div class="logo">
+              <img src="dist/img/logo.svg" alt="">
+            </div>
+            <div class="links">
+              <a href="" v-for="navLink in navLinks">
+                {{navLink.name}}
+              </a>
+              <div class="btn">
+                <img src="dist/img/google-logo.svg" alt="" class="google-logo">Sign up
+              </div>
             </div>
           </div>
+        </nav>
+        <!-- Fine Navbar -->
+
+        <!-- Inizio Jumbo -->
+        <div class="jumbo">
+          <div class="left">
+            <h1>Understand, recognize and develop your people</h1>
+          </div>
+          <div class="right">
+            <img src="dist/img/illustration-main.jpg" alt="">
+          </div>
         </div>
-      </nav>
+        <!-- Fine Jumbo -->
+
+      </header>
+      <!-- Fine header -->
     </div>
 
   <!-- Script vueJS -->
