@@ -64,6 +64,23 @@
 
       </header>
       <!-- Fine header -->
+
+      <!-- Inizio main -->
+
+      <main>
+        <section class="traditional_people padding-top-60">
+          <div class="section_container">
+            <h2 class="padding-h-200 margin-bottom-60">Traditional people processes lead to disengagement and turnover.</h2>
+            <div class="cards_container">
+              <div class="card" v-for="firstRowcard in firstRowCards">
+                <img :src="'dist/img/' + firstRowcard.img" alt="">
+                <p class="margin-top-20 padding-h-35">{{firstRowcard.text}}</p>
+              </div>
+            </div>
+          </div>
+
+        </section>
+      </main>
     </div>
 
   <!-- Script vueJS -->

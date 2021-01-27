@@ -14,7 +14,10 @@
     }
     .btn{
       color: $white;
-      background-color: $blue_link;
+      background-color: $blue_clickable;
+      &:hover{
+        background-color:  $blue_clickable_hover;
+      }
     }
   }
   .right{

@@ -1,0 +1,30 @@
+// main
+
+// traditional_people section
+section.traditional_people{
+  color: $brown_principal;
+  background: $pink_background;
+  .section_container{
+    @include container;
+    h2{
+      @include section_title;
+    }
+  }
+}
+
+// Parte relativa alle cards
+.cards_container{
+  @include container_flex;
+  justify-content: space-around;
+  .card{
+    width: $cards_width;
+    img{
+      display: flex;
+      height: 150px;
+      margin: auto;
+    }
+    p{
+      text-align: center;
+    }
+  }
+}

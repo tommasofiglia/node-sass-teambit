@@ -1,7 +1,3 @@
-$nav_height: 70px;
-$text_right: right;
-$margin_navlinks: 0 15px;
-
 .navbar{
   @include container_flex_align_center;
   height: $nav_height;

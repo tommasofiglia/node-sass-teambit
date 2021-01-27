@@ -1,3 +1,8 @@
+@mixin container{
+  max-width: 998px;
+  margin: auto;
+}
+
 @mixin container_flex{
   max-width: 998px;
   margin: auto;
@@ -25,4 +30,10 @@
   &:hover{
     color: $blue_link;
   }
+}
+
+@mixin section_title{
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
 }
