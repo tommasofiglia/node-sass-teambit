@@ -8,6 +8,8 @@ section.traditional_people{
     @include container;
     h2{
       @include section_title;
+      line-height: $line_height_main;
+      font-size: 26px;
     }
     img{
       display: block;
@@ -22,11 +24,13 @@ section.traditional_people{
         width: $cards_width;
         img{
           display: flex;
-          height: 150px;
+          height: 120px;
+          max-width: 250px;
           margin: auto;
         }
         p{
           text-align: center;
+          line-height: $line_height_main;
         }
       }
     }

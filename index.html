@@ -81,9 +81,24 @@
             </div>
 
             <img src="dist/img/before.png" alt="">
+            <hr class="margin-top-110">
           </div>
 
-          <hr class="margin-v-110">
+
+          <div class="section_container padding-top-110">
+            <h2 class="padding-h-200 margin-bottom-60">It doesn't have to be like that. Teambit is a modern solution that teammates love.</h2>
+
+            <div class="cards_container margin-bottom-100">
+              <div class="card" v-for="secondRowcard in secondRowCards">
+                <img :src="'dist/img/' + secondRowcard.img" alt="">
+                <p class="margin-top-20 padding-h-15 margin-bottom-100">{{secondRowcard.text}}</p>
+              </div>
+            </div>
+
+            <img src="dist/img/after.png" alt="">
+            <h2 class="padding-bottom-65 margin-top-100">Here is how it works</h2>
+          </div>
+
 
 
 
