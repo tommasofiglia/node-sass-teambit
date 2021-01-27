@@ -9,6 +9,11 @@ section.traditional_people{
     h2{
       @include section_title;
     }
+    img{
+      display: block;
+      margin: auto;
+      height: 305px;
+    }
     // Parte relativa alle cards
     .cards_container{
       @include container_flex;

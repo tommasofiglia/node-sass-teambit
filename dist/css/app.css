@@ -24512,6 +24512,11 @@ section.traditional_people .section_container h2 {
   text-align: center;
   font-weight: 500;
 }
+section.traditional_people .section_container img {
+  display: block;
+  margin: auto;
+  height: 305px;
+}
 section.traditional_people .section_container .cards_container {
   max-width: 998px;
   margin: auto;
