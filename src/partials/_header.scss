@@ -1,16 +1,20 @@
 .jumbo{
   @include container_flex;
   padding: $paddings_jumbo;
+  color: $brown_principal;
   .left{
     width: $width_half;
     h1{
-      color: $brown_principal;
       font-size: $title_size;
       font-size: $title_font_weight;
       line-height: $line_height_main;
     }
     p{
       line-height: $line_height_main;
+    }
+    .btn{
+      color: $white;
+      background-color: $blue_link;
     }
   }
   .right{
