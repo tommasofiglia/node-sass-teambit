@@ -8,9 +8,10 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+@import "partials/common";
+@import "partials/utility";
 @import "partials/variables";
 @import "partials/mixin";
-@import "partials/common";
 @import "partials/navbar";
 @import "partials/header";
 @import "partials/main";

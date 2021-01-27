@@ -8,7 +8,10 @@
       font-size: $title_size;
       font-size: $title_font_weight;
       line-height: $line_height_main;
-    }  
+    }
+    p{
+      line-height: $line_height_main;
+    }
   }
   .right{
     width: $width_half;
